@@ -18,7 +18,7 @@ static_resources:
                       routes:
                         - match: { prefix: "/" }
                           route:
-                            cluster: sensor_service
+                            cluster: service_envoyproxy_io
                             max_grpc_timeout: 0s
                       # cors:
                       #   allow_origin:
